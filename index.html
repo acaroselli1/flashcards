@@ -16,7 +16,7 @@
             <div class="flip-container">
                    
                     <div class="flipper" id="flipper1">
-                        <h1>Joey's Math Challenge</h1>
+                      
                         <div class="front" id="times">
                            
                         </div>
@@ -27,9 +27,15 @@
                     </div>
                 </div>
                 <form>
-                    <button id="answerButton">Submit Answer</button>
-                    <input type="text">
+                    
+                    <button type="button" id="answer-button">Submit Answer</button>
+                    
+                    <input id ="inputValue" type="text"/>
+                    <button id="next" type="button">Next</button>
                 </form>
+<audio id ="wrong-answer" src="wrong-answer.mp3"></audio>
+<audio id ="correct-answer" src="correct-answer.mp3"></audio>
+
 </body>
 <script src="app.js "></script>
 

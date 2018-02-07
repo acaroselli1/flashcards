@@ -28,10 +28,10 @@ box-shadow:10px 10px 20px black;
 .front,.back{
   backface-visibility:hidden;
   position:absolute;
-  top:200;
+  top:0;
   left:500;
   margin-left:250px;
-  margin-top:200px;
+  margin-top:0px;
   text-align:center;
   line-height:300px;
   font-size:100px;
@@ -41,13 +41,13 @@ box-shadow:10px 10px 20px black;
 transform-style:preserve-3d;
 transition:2s;
 position:relative;
-top:200;
+top:0;
 left:500;
 margin-left:250px;
-margin-top:200px;
+margin-top:0px;
 }
 
-button{
+#answer-button{
 margin-left:630px;
 margin-top:100px;
 margin-bottom:200px;
