@@ -20,7 +20,7 @@ function preventEnter(event){
 function revealAnswer(){ 
    if(document.getElementById("inputValue").value == firstNum * secondNum){
       document.getElementById('flipper1').classList.toggle('flipped');
-      document.getElementById("correct-answer").play();
+      document.getElementById("Correct-answer").play();
       rightAnswerCount++;
       document.getElementById("right-answer-count").innerHTML = rightAnswerCount;
       console.log('rightAnswerCount: ', rightAnswerCount);
