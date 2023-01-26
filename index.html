@@ -26,12 +26,18 @@
 
                     </div>
                 </div>
+                
+               </div>
                 <form>
-                    
-                    <button type="button" id="answer-button">Submit Answer</button>
-                    
-                    <input id ="inputValue" type="text"/>
-                    <button id="next" type="button">Next</button>
+                    <div class="button-input-container">
+                        <div style="color:white; font-size:50px;">
+                            Current Streak of Right Answers!:
+                            <span id="right-answer-count"></span>
+                        </div>
+                        <input id ="inputValue" type="text"/>
+                        <button type="button" id="answer-button">Submit Answer</button>
+                        <!--<button id="next" type="button">Next</button>-->
+                    </div>
                 </form>
 <audio id ="wrong-answer" src="wrong-answer.mp3"></audio>
 <audio id ="correct-answer" src="correct-answer.mp3"></audio>
