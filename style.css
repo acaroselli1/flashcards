@@ -13,6 +13,8 @@ button{
 }
 input{
     border-radius:15px;
+    height: 90px;
+    font-size: 40px;
 }
 .front,.back{
 height:300px;
@@ -48,9 +50,8 @@ margin-top:0px;
 }
 
 #answer-button{
-margin-left:630px;
-margin-top:100px;
-margin-bottom:200px;
+   height: 100px;
+   font-size: 50px;
 }
 
 .front{
@@ -68,9 +69,16 @@ transform: rotateY(180deg);
 }
 
 h1{
-    margin-left:285px;
-    color:white;
+    color:red;
     backface-visibility:hidden;
+}
+
+body {
+    align-items: center;
+}
+
+.button-input-container {
+    text-align: center;
 }
 /*.box:hover{
     transition: 2s;
@@ -78,4 +86,7 @@ h1{
     transform:rotateY(180deg);
 	position: relative;
 }*/
-
+.right-answer-count{
+    color:white;
+    font-size: 50px;
+}
